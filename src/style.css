@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    background-color: #000000;
+    background-image: url("https://listelist.com/wp-content/uploads/2017/07/orwell-1984-gorsel-620x375.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    color: rgb(97, 190, 159);
+    display: grid;
+    place-items: center;    
+}
+.ts{
+    border:10px double rgb(126, 78, 78);
+    background-clip: padding-box;
+    
+    background-color:rgb(214, 119, 119)  ;
+    width:fit-content  minmax(35ch,1fr);
+    display: grid;
+    margin-top: 15rem;
+
+    transition-property: all;
+    
+    transition-delay: 1000ms;
+    transition-duration:0 ;
+}
+.ts:hover{
+    color:rgb(255, 255, 255);
+    background-image: url("https://www.tesadernegi.org/wp-content/uploads/2019/01/big-brother-is-watching-you-1984-george-orwell.jpg");
+    background-size: cover;
+    background-clip: border-box;
+    border:10px solid rgb(10, 9, 9);
+}
